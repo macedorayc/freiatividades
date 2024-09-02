@@ -1,0 +1,28 @@
+.cabeçalho {
+
+    display: flex;
+    background-color: #313131;
+    max-width: 100%;
+    align-items: center;
+    color: #f5f4f4;
+    justify-content: space-between;
+    padding: 10px 40px;
+
+    .imh1 {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+
+    h1 {
+        font-size: 22px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    
+    .atividades {
+        width:64px
+        ;
+    }
+
+}
