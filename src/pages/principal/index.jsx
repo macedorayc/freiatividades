@@ -11,8 +11,12 @@ export default function Principal() {
     return (
         <div className='app-container'>
             <Cab />
+ <section className='section-cards'>
+       <h1>Conteúdos</h1>
 
-            <section className='cardd'>
+            <section className='cards-container'>
+
+             
 
                 <Cards
                     corPrimaria={corPrimaria}
@@ -65,7 +69,7 @@ export default function Principal() {
 
 
             </section>
-
+</section>
         </div>
     )
 

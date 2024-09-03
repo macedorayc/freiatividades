@@ -1,11 +1,12 @@
 @import '../../colors';
 
 .cards {
-    padding: 80px 120px;
+    padding: 40px;
 
     .card {
         width: 350px;
         height: 260px;
+        
 
         border-radius: 12px;
         box-shadow: 
@@ -13,14 +14,14 @@
             rgba(0, 0, 0, 0.23) 0px 6px 6px;
 
         .card-cabecalho {
-            padding: 8px 0px;
+            padding: 12px 5px;
             font-size: 14px;
             text-align: center;
             border-radius: 12px 12px 0px 0px;
         }
 
         .card-conteudo {
-            padding: 12px;
+            padding: 20px;
             height: 180px;
 
             pre {
