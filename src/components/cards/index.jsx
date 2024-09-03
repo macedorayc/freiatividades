@@ -21,7 +21,7 @@ export default function Cards(props) {
                     </div>
                     <p className='tag'>{props.date}</p>
                     {
-                        trabalho && <p className='tag'>Entrega Trab.</p>
+                        trabalho && <p className='tag1'>Entrega Trab.</p>
                     }
                 </div>
             </div>

@@ -44,5 +44,17 @@
             text-align: center;
             border-radius: 12px;
         }
+        .tag1 {
+            float: start;
+            margin-left: 12px;
+            background-color: $destaque;
+            color: $primaria;
+            font-weight: bold;
+            padding: 2px 8px;
+            width: 120px;
+            text-align: center;
+            border-radius: 12px;
+        }
+
     }
 }
