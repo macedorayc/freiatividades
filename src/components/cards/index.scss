@@ -14,7 +14,7 @@
             rgba(0, 0, 0, 0.23) 0px 6px 6px;
 
         .card-cabecalho {
-            padding: 12px 5px;
+            padding: 8px 5px;
             font-size: 14px;
             text-align: center;
             border-radius: 12px 12px 0px 0px;
@@ -39,22 +39,12 @@
             background-color: $destaque;
             color: $primaria;
             font-weight: bold;
-            padding: 2px 8px;
-            width: 120px;
+            padding: 6px 8px;
+            width: 155px;
             text-align: center;
             border-radius: 12px;
         }
-        .tag1 {
-            float: start;
-            margin-left: 12px;
-            background-color: $destaque;
-            color: $primaria;
-            font-weight: bold;
-            padding: 2px 8px;
-            width: 120px;
-            text-align: center;
-            border-radius: 12px;
-        }
+       
 
     }
 }
