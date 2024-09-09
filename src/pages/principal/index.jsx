@@ -8,6 +8,47 @@ export default function Principal() {
     let corSegundaria = '#EFFBE2'
 
 
+
+    function Card({ status, titulo, assunto, data, entregaTrab }) {
+        let corPrimaria = ''
+        let corSegundaria = ''
+    
+        switch (status) {
+            case 'Completo':
+                corPrimaria = '#A3E5BA'
+                corSegundaria = '#EFFBE2'
+                break;
+            case 'Em andamento':
+                corPrimaria = '#DCA3E5'
+                corSegundaria = '#EDE2FB'
+                break;
+            default:
+                corPrimaria = '#C3C3C3'
+                corSegundaria = '#F2F2F2'
+                break;
+        }
+    
+        return (
+            <div className='card' style={{ backgroundColor: corSegundaria }}>
+                <div className='card-cabecalho' style={{ backgroundColor: corPrimaria }}>
+                    <h2>{titulo}</h2>
+                </div>
+                <div className='card-conteudo'>
+                    <h3>Assuntos</h3>
+                    <pre>
+                        {assunto}
+                    </pre>
+                </div>
+                <p className='tag'>{data}</p>
+                {entregaTrab && <p className='tag'> Entrega Trab.</p>}
+            </div>
+        )
+    }
+    
+
+    
+
+
     return (
         <div className='app-container'>
             <Cab />
@@ -66,13 +107,9 @@ export default function Principal() {
                 />
 
 
-
-
             </section>
-</section>
-        </div>
-    )
+        </section>
+    </div>
 
-
-}
-
+    );
+};

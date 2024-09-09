@@ -23,6 +23,7 @@ export default function Cards(props) {
                     {
                         trabalho && <p className='tag'>Entrega Trab.</p>
                     }
+                    <h1>{props.status}</h1>
                 </div>
             </div>
         </div>
