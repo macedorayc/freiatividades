@@ -27,7 +27,7 @@ export default function Principal() {
     async function listarCards() {
         try {
             const dados = await axios.get('http://localhost:8080/cards');
-            console.log(dados.data); 
+            console.log(dados); 
         } catch (error) {
             alert(error);
         }
@@ -51,7 +51,7 @@ export default function Principal() {
                         />
                     ))}
                 </section>
-                <button onClick={listarCards}>Listar Cards</button>
+                <button className='listar' onClick={listarCards}>Listar Cards</button>
             </section>
         </div>
     );

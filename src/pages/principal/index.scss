@@ -1,6 +1,9 @@
+@import '../../colors';
+
 .app-container {
 
 .section-cards{ 
+    margin: 0px 20px;
     
     display: flex;
    flex-direction: column;
@@ -18,10 +21,16 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: space-between;
         gap: 20px;
         width: 100%;
 
         
-    }}
-}
+    }   .listar{
+        padding: 10px 20px;
+        width: 150px;
+        margin-left: 45px;
+        background-color: $vermelho;
+        color: $primaria;
+         border: none;
+    
+    }}}
