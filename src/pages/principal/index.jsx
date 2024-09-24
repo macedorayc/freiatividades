@@ -27,7 +27,7 @@ export default function Principal() {
     async function listarCards() {
         try {
             const dados = await axios.get('http://localhost:8080/cards');
-            console.log(dados.data); // Supondo que a resposta tenha a propriedade `data`
+            console.log(dados.data); 
         } catch (error) {
             alert(error);
         }
